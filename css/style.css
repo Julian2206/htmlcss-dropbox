@@ -42,7 +42,7 @@ body {
 }
 
 .nav .link:hover {
-  border-bottom: 3px solid black;
+  border-bottom: 5px solid black;
 }
 
 .header-space {
@@ -61,7 +61,7 @@ body {
 
 .section-1 {
   position: relative;
-  height: 500px;
+  height: 550px;
   width: 100%;
   background-color: aqua;
   /* padding: 40px; */
@@ -74,9 +74,10 @@ body {
 }
 
 .header-text {
+  line-height: 110%;
   text-align: center;
   font-size: 68px;
-  padding: 60px 0 40px 0;
+  padding: 80px 0 40px 0;
 }
 
 .section-1-text {
@@ -97,6 +98,7 @@ body {
 .section-1-side-text-2 {
   display: flex;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .try-free {
@@ -106,6 +108,8 @@ body {
   background: blue;
   color: white;
   border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .fa-solid {
@@ -117,7 +121,6 @@ body {
 .jumbo-image {
   margin-top: 20px;
   width: 60%;
-  height: 80%;
 }
 
 /* section-2 */
@@ -126,9 +129,10 @@ body {
   margin: 0 auto;
   width: 60%;
   margin-top: 70px;
+  border: 2px solid black;
 }
 
-h2 {
+.section-2-header {
   font-size: 42px;
   margin-bottom: 40px;
 }
@@ -136,6 +140,7 @@ h2 {
 .section-2-checkbox {
   /* position: relative; */
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .fa-circle-dot {
@@ -146,4 +151,39 @@ h2 {
 .fa-regular {
   font-size: 15px;
   color: lightgray;
+}
+
+/* cards section/ section-2 */
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 1200px;
+}
+
+.card1 {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  margin-right: 30px;
+}
+
+.card2 {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  margin-right: 30px;
+}
+
+.card3 {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
 }
