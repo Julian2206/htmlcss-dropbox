@@ -133,6 +133,7 @@ li {
   margin: 0 auto;
   width: 60%;
   margin-top: 70px;
+  margin-bottom: 60px;
   /* border: 2px solid black; */
 }
 
@@ -317,16 +318,38 @@ li {
 }
 
 .rbox {
-  /*Low flex basis values to keep it next to each other divs*/
   flex-grow: 1;
   flex-shrink: 0;
+  /*Low flex basis values to keep it next to each other*/
   flex-basis: 30%;
 }
 
 .wrapper > div .lbox {
-  /* flex: 0 0 25%; */
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 25%;
   margin-left: 0;
+}
+
+/* image with text on the right side */
+
+.section3-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.section3-container > .section3-image {
+  flex: 1 0 0%;
+}
+.section3-image > img {
+  vertical-align: top;
+  width: 450px;
+  /* max-width: 100%; */
+  /* max-height: 300px; */
+}
+.section3-container > .section3-side-text {
+  flex: 2 0 0%;
+  margin: auto 0;
+  padding: 40px;
 }
