@@ -338,6 +338,7 @@ li {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  margin-bottom: 60px;
 }
 .section3-container > .section3-image {
   flex: 1 0 0%;
@@ -352,4 +353,46 @@ li {
   flex: 2 0 0%;
   margin: auto 0;
   padding: 40px;
+}
+
+/* section-4 */
+
+.section4-header-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section4-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section4-card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 1%;
+}
+
+.section4-image-wrapper {
+  height: 0;
+  padding-bottom: 80%;
+  position: relative;
+}
+
+.section4-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section4-text {
+  background: royalblue;
+  padding: 20px;
+  flex: 1 0 auto;
 }
