@@ -442,6 +442,8 @@ li {
 .box1-small-box1 > img {
   width: 100%;
   height: 100%;
+  /* to make the img white */
+  filter: invert(75%);
 }
 
 .box1-small-box2 {
@@ -509,10 +511,13 @@ li {
 
 /* section-5-footer-box */
 
+/* !!reminder!! need some modification for fbox not alligned correctly */
+
 .section5-fbox {
   width: 100%;
   height: 250px;
   background-color: lightblue;
+  margin-bottom: 80px;
 }
 
 .section5-fbox-container {
@@ -535,3 +540,14 @@ li {
 }
 
 /* end-section-5 */
+
+.section6-container {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 60px;
+}
+
+.section6-container > h4 {
+  font-size: 28px;
+  margin-bottom: 70px;
+}
