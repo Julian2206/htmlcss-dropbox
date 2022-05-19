@@ -424,18 +424,71 @@ li {
   width: calc(100% / 3);
   height: 100%;
   background-color: greenyellow;
+  display: flex;
+  /* 4 boxes inside 1 bbox style*/
+  flex-wrap: wrap;
+}
+
+.box1-small-box1 {
+  height: 50%;
+  width: 50%;
+  background-color: blue;
+}
+
+.box1-small-box2 {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
+
+.box1-small-box3 {
+  height: 50%;
+  width: 50%;
+  background-color: green;
+}
+
+.box1-small-box4 {
+  height: 50%;
+  width: 50%;
+  background-color: violet;
 }
 
 .box2 {
   width: calc(100% / 3);
   height: 100%;
-  background-color: royalblue;
+  /* background-color: royalblue; */
 }
 
 .box3 {
   width: calc(100% / 3);
   height: 100%;
   background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box3-small-box1 {
+  height: 50%;
+  width: 50%;
+  background-color: blue;
+}
+
+.box3-small-box2 {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
+
+.box3-small-box3 {
+  height: 50%;
+  width: 50%;
+  background-color: green;
+}
+
+.box3-small-box4 {
+  height: 50%;
+  width: 50%;
+  background-color: violet;
 }
 
 .section5-fbox {
