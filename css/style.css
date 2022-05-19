@@ -373,6 +373,7 @@ li {
   flex-direction: column;
   width: 30%;
   margin: 0 1%;
+  margin-bottom: 40px;
 }
 
 .section4-image-wrapper {
@@ -392,7 +393,22 @@ li {
 }
 
 .section4-text {
-  background: royalblue;
+  /* background: royalblue; */
   padding: 20px;
   flex: 1 0 auto;
 }
+
+/* end-section-4 */
+
+.know-more-client {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 60px;
+}
+
+.some-extra-info {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* section-5 */
